@@ -7,7 +7,7 @@ def max_of_two(x: int, y: int):
     if x >= y:
         return biggest
     else:
-        biggest: int = y
+        biggest = y
         return biggest
 
 
@@ -17,5 +17,5 @@ def max_of_three(x: int, y: int, z: int):
     biggest: int = x
     for i in int_list:
         if i > biggest:
-            biggest: int = i
+            biggest = i
     return biggest
